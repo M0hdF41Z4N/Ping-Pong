@@ -11,7 +11,7 @@ const paddle1Name = "Rod 1";
 const paddle2Name = "Rod 2";
 
 // for score calculation , initialize ball speed etc.
-let score , maxScore , ball_movement , paddle , 
+let score , maxScore , ball_movement , paddle = 'null', 
 ballSpeedY = 2 , ballSpeedX = 2;
 
 // Initially gameStatus is off
