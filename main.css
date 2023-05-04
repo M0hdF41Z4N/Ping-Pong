@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#board {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+#ball {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 30px;
+    left: 52.5%
+}
+
+#paddle-1 ,#paddle-2  {
+    background-color: orange;
+    width: 15vw;
+    height: 20px;
+    border-radius: 25px;
+    position: fixed;
+    left: 45vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#paddle-1 {
+    top:0px;
+}
+
+#paddle-2 {
+    bottom: 0px;
+    
+}
+
