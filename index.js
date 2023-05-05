@@ -11,7 +11,7 @@ const paddle1Name = "Rod 1";
 const paddle2Name = "Rod 2";
 
 // for score calculation , initialize ball speed etc.
-let score , maxScore , ball_movement , paddle = 'null', 
+let score , maxScore , ball_movement , paddle, 
 ballSpeedY = 2 , ballSpeedX = 2;
 
 // Initially gameStatus is off
@@ -29,7 +29,7 @@ let winHeight = window.innerHeight;
     paddle = localStorage.getItem(playerName);
     maxScore = localStorage.getItem(storeScore);
 
-    if (paddle === 'null' || maxScore === 'null' ) {
+    if (paddle === null || maxScore === null ) {
         alert("This is the first time you are playing this game. LET'S START");
         maxScore=0;
         paddle = 'Rod 1';
